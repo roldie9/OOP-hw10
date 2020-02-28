@@ -1,3 +1,5 @@
+const employee = require("./employee");
+
 const inquirer = require("inquirer");
 const fs = require("fs");
 
@@ -27,15 +29,15 @@ inquirer.prompt([
 });
 
 
-class manager {
-    constructor(name, id, email, office, school, username) {
-        this.name = managerName;
+class manager extends employee {
+    constructor(employeeName, id, email, office, school, username) {
+        this.name = employeeName;
         this.id = id;
         this.email = email;
         this.office = office;
     }
     printInfo() {
-        console.log('Name: ${this.managerName}');
+        console.log('Name: ${this.employeeName}');
         console.log('Name: ${this.id}');
         console.log('Name: ${this.email}');
         console.log('Name: ${this.office}');
