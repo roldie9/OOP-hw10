@@ -7,7 +7,7 @@ inquirer.prompt([
     {
         type: "input",
         message: "What is the engineer's name?",
-        name: "engineerName"
+        name: "employeeName"
     },
     {
         type: "input",
