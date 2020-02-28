@@ -1,27 +1,26 @@
 const employee = require("./employee");
 
 const inquirer = require("inquirer");
-const fs = require("fs");
 
 inquirer.prompt([
     {
         type: "input",
-        message: "What is the Manager's name?",
+        message: "What is your Manager's name?",
         name: "employeeName"
     },
     {
         type: "input",
-        message: "What is the Manager's ID?",
+        message: "What is your Manager's ID?",
         name: "id"
     },
     {
         type: "input",
-        message: "What is the Manager's email?",
+        message: "What is your Manager's email?",
         name: "email"
     },
     {
         type: "input",
-        message: "What is the Manager's office number?",
+        message: "What is your Manager's office number?",
         name: "office"
     }
 ]).then(function(answer) {

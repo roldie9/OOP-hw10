@@ -37,9 +37,9 @@ class engineer extends employee {
     }
     printInfo() {
         console.log('Name: ${this.employeeName}');
-        console.log('Name: ${this.id}');
-        console.log('Name: ${this.email}');
-        console.log('Name: ${this.username}');
+        console.log('ID: ${this.id}');
+        console.log('Email: ${this.email}');
+        console.log('GitHub Username: ${this.username}');
     }
 }
 
