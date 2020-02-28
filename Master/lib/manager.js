@@ -44,8 +44,4 @@ class manager extends employee {
     }
 }
 
-const manager = new manager();
-
-manager.printInfo();
-
 module.exports = manager;

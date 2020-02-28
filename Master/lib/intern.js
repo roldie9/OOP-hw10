@@ -43,8 +43,4 @@ class intern extends employee {
     }
 }
 
-const intern = new intern();
-
-intern.printInfo();
-
 module.exports = intern;
