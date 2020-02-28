@@ -59,3 +59,5 @@ class employee {
 const employee = new employee();
 
 employee.printInfo();
+
+module.exports = employee;
